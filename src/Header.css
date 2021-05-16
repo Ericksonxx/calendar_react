@@ -1,0 +1,13 @@
+.header{
+    height:100px;
+    width:70%;
+    margin-left:15%;
+    margin-top:50px;
+}
+.header p{
+    padding-top:70px;
+    font-size:28pt;
+    color: #1e5d84;
+    font-weight:600;
+    font-family: "gt-pressura-regular", helvetica, arial, sans-serif;
+}

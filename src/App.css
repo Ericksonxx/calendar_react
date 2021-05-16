@@ -1,0 +1,13 @@
+.App{
+    height:100vh !important;
+    background-color:#f2c4c4;
+    width:100%;
+}
+
+/*QUERIES*/
+@media (max-width: 676px) { 
+    .App{
+        width:100%;
+        padding-bottom:290px;
+    }
+    }

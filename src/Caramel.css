@@ -1,0 +1,24 @@
+.caramel img{
+    max-width:280px;
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    bottom:0px;
+}
+.caramel{
+    position:absolute;;
+    float:right;
+    margin-right:40px;
+    padding-top:255px;
+    max-height:fit-content;
+    margin-left:70%;
+}
+
+
+@media (max-width: 676px) { 
+    .caramel{
+      transform:scale(0.7);
+      margin-left:25%;
+      margin-top:730px;
+    }
+   }

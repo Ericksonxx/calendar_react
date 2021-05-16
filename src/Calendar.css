@@ -1,0 +1,210 @@
+/*-------CALENDAR-------------------------------*/
+.react-datepicker__header{
+    background-color: white !important;
+    border: 2px transparent !important;
+    margin-top:20px !important;
+    margin-bottom: 20px !important;
+}
+.react-datepicker__current-month{
+   color: #1e5d84 !important;
+}
+.react-datepicker__day-name{
+   color: #1e5d84 !important;
+   margin-top:10px !important;
+}
+.react-datepicker__day{
+   border:1px solid orange !important;
+   color:orange !important;
+   padding:3px;
+   margin:1px !important;
+}
+.react-datepicker__triangle{
+   display:none !important;
+}
+.react-datepicker{
+   padding:15px !important;
+   margin-left:15% !important;
+}
+.react-datepicker__day--disabled{
+    color:rgb(128, 128, 128) !important;
+    border:transparent solid 1px !important;
+    background-color: rgb(228, 228, 228);
+}
+
+/*-------------------CALENDAR TRIGGER-----------------------------------*/
+.calendar__trigger{
+    font-family: "gt-pressura-regular", helvetica, arial, sans-serif;
+    margin-left:240px;
+    background-color:gey;
+    margin-top:420px;
+    width:390px;
+    height:190px;
+    background-color: rgb(223, 223, 223);
+    padding:15px;
+    border-radius: 10px;
+}
+
+.title__trigger{
+    font-size:25pt;
+    color: #1e5d84;
+    font-weight:600;
+}
+
+.span__trigger{
+    font-size:10pt;
+    background-color:rgb(206, 206, 206);
+    padding:3px;
+    border-radius: 5px;
+    position:absolute;
+    margin-top:10px;
+    margin-left:15px;
+}
+
+.selected__date__display{
+    position:absolute;
+    margin-top: -70px;
+    margin-left:30px;
+    font-family: "gt-pressura-regular", helvetica, arial, sans-serif;
+    font-size:14pt;
+    color: #1e5d84;
+    font-weight:500;
+}
+
+.react-datepicker-ignore-onclickoutside{
+    background-color:transparent !important;
+    border:none;
+}
+
+.button__trigger{
+    padding:10px;
+    margin-top: 20px;
+    height:70px;
+    width:350px;
+    background-color:rgb(245, 245, 245);
+    border:none;
+    border-radius: 3px;
+    box-shadow: rgba(66, 66, 66, 0.356) 1px 3px 4px;
+}
+.datepicker{
+    margin-top:-50px;
+    margin-left:296px;
+    position: absolute;
+}
+
+.react-datepicker-wrapper input{
+    background-color:whitesmoke;
+    border:none !important;  
+    background-color:transparent!important;  
+    color:transparent !important;
+    position:absolute;
+    z-index:1000 !important;
+    max-width:65px;
+}
+.react-datepicker__input-container{
+    border:none !important;
+}
+.wrapper{
+    width:100%;
+    height:101%;
+    margin-top:-300px;
+    position:absolute;
+    backdrop-filter: blur(0px);   
+}
+
+.trigger_early{
+    width: 150px;;
+    padding:4px;
+    background-color:rgb(218, 218, 218);
+    margin-top:-40px;
+    margin-left:28px;
+    font-size:11pt;
+    position:absolute;
+    border-radius: 9px;
+}
+
+.earliest{
+    font-size:10pt;
+    background-color:rgb(206, 206, 206);
+    padding:3px;
+    position:absolute;
+    color: #1e5d84;
+    font-weight:600;
+    margin-left:8px;
+}
+
+
+/*----------CHANGE DATE---------------------*/
+.trigger__right{
+    background-color: #bfdbec;
+    width:100px;
+    margin-top:-90px;
+    margin-left:270px;;
+    border-radius: 100px 0px 0px 100px;
+    height:90px;
+    position:absolute;
+}
+.svg__right__svg{
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.svg__right__text{
+    text-align:center;
+    font-family: "gt-pressura-regular", helvetica, arial, sans-serif;
+    font-size:10pt;
+    color: #1e5d84;
+    font-weight:600;
+}
+.svg__right__svg svg{
+    margin-left:19px;
+    margin-top:8px;
+    background-color:white;
+}
+.day__num{
+    position:absolute;
+    margin-top:-22px;
+    margin-left:-45px;
+    font-family: "gt-pressura-regular", helvetica, arial, sans-serif;
+    font-size:12pt;
+    color: #1e5d84;
+    font-weight:600;
+}
+
+/*----------------------CONTINUE BUTTON-----------------------*/
+.button__container{
+
+    max-width: fit-content;
+    margin-left:560px;
+    margin-top:50px;
+    position: absolute;
+}
+
+.button__container button{
+    padding:10px 15px;
+    border:none;
+    color:whitesmoke;
+    font-family: "gt-pressura-regular", helvetica, arial, sans-serif;
+    font-size:12pt;
+    background-color: #1e5d84;
+    font-weight:400;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.534) 1px 1px 3px;;
+}
+
+
+/*----------QUERIES-----------------------------*/
+@media (max-width: 676px) { 
+    .calendar__trigger{
+      transform:scale(0.7);
+      margin-left:0px;
+      margin-top:500px;
+    }
+    .button__container{
+        transform:scale(0.7);
+        margin-left:160px;
+        margin-top:-10px;
+      }
+    }
+   
+
+
